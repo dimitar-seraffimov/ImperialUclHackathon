@@ -4,8 +4,8 @@ from supabase import create_client, Client
 app = Flask(__name__)
 
 # Replace these with your Supabase project URL and API key
-SUPABASE_URL = 'https://lsrynhxvdvhddazvuisw.supabase.co'  # e.g., 'https://xyzcompany.supabase.co'
-SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzcnluaHh2ZHZoZGRhenZ1aXN3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMjk4Njk2NywiZXhwIjoyMDQ4NTYyOTY3fQ.bIcFPtKgbDetggztoWlWgflTqUe0tY7VPb_RXdwDfIM'  # e.g., 'eyJhbGciOiJI...'
+SUPABASE_URL = ''  # e.g., 'https://xyzcompany.supabase.co'
+SUPABASE_KEY = ''  # e.g., 'eyJhbGciOiJI...'
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
